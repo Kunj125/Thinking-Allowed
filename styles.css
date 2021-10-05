@@ -14,6 +14,16 @@ nav a:hover,
 nav a:focus {
 	outline: none;
 }
+.bd_event{
+  text-decoration: none;
+  color: black;
+
+}
+.bd_event:hover{
+  text-decoration: underline;
+  color: #CF0707;
+
+}
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
