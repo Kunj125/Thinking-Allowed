@@ -3,9 +3,28 @@ $(document).ready(function () {
     $('.navbar-toggle-icon').toggleClass('open');
   });
 });
-// const logo = document.querySelectorAll("#logo text");
 
-// for (let i = 0; i<logo.length; i++) {
-//     console.log('Letter ${i} is ${logo{i}.getTotalLenght()}');
-// }
-<script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
+
+let form = document.querySelector("#contact");
+form.addEventListener("submit", function () {
+  setTimeout(function () {
+    form.reset();
+  }, 3000);
+})
+
+
+$(document).on('keyup keypress', 'form input', function (e) {
+  if (e.which == 13) {
+    e.preventDefault();
+    return false;
+  }
+});
+
+
+
