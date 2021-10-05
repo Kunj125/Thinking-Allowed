@@ -413,7 +413,7 @@ body,html{
 
 @font-face {
     font-family: applefonts;
-    src: url(/assests/fonts/SFPRODISPLAYREGULAR.OTF);
+    src: url(/events/assests/fonts/SFPRODISPLAYREGULAR.OTF);
 }
 /* #eventlineup */
 .eventlineup{
