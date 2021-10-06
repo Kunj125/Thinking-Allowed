@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: applefonts;
+    src: url(https://thinking-allowed.live/events/assests/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+
 :root{
     --white: #f3f6fd;
     --black: #000000;
@@ -411,10 +418,6 @@ body,html{
 }
 
 
-@font-face {
-    font-family: applefonts;
-    src: url(/assests/fonts/SFPRODISPLAYREGULAR.OTF);
-}
 /* #eventlineup */
 .eventlineup{
     font-size: 50px;
@@ -494,7 +497,7 @@ body,html{
     padding: 05px;
 }
 .blo:nth-child(1){
-    background: url(/assests/images/panktipatel.jpeg);
+    background: url(https://thinking-allowed.live/events/assests/images/panktipatel.jpeg);
 }
 .blo:nth-child(2){
     background: url(https://res.cloudinary.com/glide/image/fetch/f_auto,w_225,h_225,c_lfill/https%3A%2F%2Fres.cloudinary.com%2Fglide%2Fimage%2Ffetch%2Ff_auto%2Cw_225%2Ch_225%2Cc_lfill%2Fhttps%253A%252F%252Fstorage.googleapis.com%252Fglide-prod.appspot.com%252Fuploads-v2%252FI1PBqwnJLOkAnTStWD3D%252Fpub%252F53Cf2Mpg8r6TpT1Cc8fF.jpg);
