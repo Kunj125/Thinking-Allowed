@@ -3,6 +3,9 @@
     font-family: applefonts;
     src: url(https://thinking-allowed.live/events/assests/fonts/SFPRODISPLAYREGULAR.OTF);
 }
+html{
+    overflow-x: hidden;
+}
 
 
 :root{
