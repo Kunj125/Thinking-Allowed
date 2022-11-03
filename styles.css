@@ -88,7 +88,8 @@ nav a:focus {
 }
 .logo{
   width:12%;
-  height:5em;
+  height:7em;
+  margin: 1rem;
 }
 
 @media (max-width:992px){
@@ -216,7 +217,7 @@ nav a:focus {
  }
  .logo{
    width : 15%;
-   height : 5em;
+   height : 7em;
 
  }
  
@@ -258,7 +259,7 @@ nav a:focus {
     }
     .logo{
       width : 22%;
-      height : 5em;
+      height : 7em;
    
     }
     
@@ -974,5 +975,65 @@ textarea {
   display: none;
 }
 
+@media (max-width:1000px) {
+  .logo{
+    height:25%;
+    width: 25%;
+  }
+  
+}
 
 
+  a.cta{
+    color: #FF1919;
+    text-decoration: none;
+    position: relative;
+    padding: 2px 2px;
+    transition: all 0.2s ease-out;
+  }
+  .cta:after {
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background: #FF1919;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 0.2s ease-out;
+  }
+  .cta:before {
+    content: " ";
+    width: 4px;
+    height: 4px;
+    background: #FF1919;
+    position: absolute;
+    right: -4px;
+    bottom: 0;
+    opacity: 0;
+  }
+  .cta:hover {
+    background: rgb(255, 25, 25, 0.1);
+    transition: all 0.1s ease-out;
+    padding: 2px 8px;
+  }
+  .cta:hover:after {
+    width: 0px;
+    transition: all 0.1s ease-out;
+  }
+  .cta:hover:before {
+    opacity: 1;
+    animation: blink 0.4s infinite 0.1s;
+    transition: all 0.1s ease-out;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
